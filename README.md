@@ -1,6 +1,8 @@
 # SPM_scripts
 MATLAB scripts for pre-processing fMRI data and running GLM analysis with SPM
 
+Project-specific parameters should be specified in the first section of each script before running
+
 ## Getting started
 These scripts require the SPM12 software, which can be downloaded from https://www.fil.ion.ucl.ac.uk/spm/software/spm12/
 
