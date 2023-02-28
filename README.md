@@ -18,7 +18,7 @@ Before running the GLM scripts, condition files should be constructed for each p
 ## Features
 
 Description of each file
-* preprocessing.m runs common fMRI data preprocessing pipeline (slice-time correction, motion correction, normalization to MNI template, and spatial smooting)
+* preprocessing.m runs common fMRI data preprocessing pipeline (anatomic normalization to MNI template, averaging anatomic images, slice-time correction, motion correction, normalization to MNI template, and spatial smooting)
 * first_level_GLM.m specifies and estimates a first-level general linear model for each participant
 * second_level_GLM.m specifies and estimates a second-level t-test using the first-level GLM contrast files
 
