@@ -1,6 +1,6 @@
 %% Enter info about data
 %directory that contains contrast files
-conFolder = @(P) ['D:\Data\HOHMB\sub' num2str(P) '\model'];
+conFolder = @(P) ['D:\Data\HOHMB\P' num2str(P) '\model'];
 %list of participant numbers
 Ps = [1:12 14:18];
 %desired name of folders for group contrast (should exist before running script)
