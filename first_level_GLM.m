@@ -3,9 +3,9 @@ runFolder = @(P, run_name) ['F:\Data\HOHMB\P' num2str(P) '\' run_name];
 %run names
 runs = {'run1'; 'run2'; 'run3'; 'run4'; 'run5'; 'run6'};
 %directory that contains stimulus info (replace participant numbers and run names with num2str(P) and run_name)
-conditions = @(P,run_name) ['D:\Data\HOHMB\sub' num2str(P) '\behavior\hohm' num2str(P) '_' run_name '_submem.mat'];
+conditions = @(P,run_name) ['D:\Data\HOHMB\P' num2str(P) '\behavior\hohm' num2str(P) '_' run_name '_submem.mat'];
 %directory to save first level model
-modelDir = @(P) ['D:\Data\HOHMB\sub' num2str(P) '\model'];
+modelDir = @(P) ['D:\Data\HOHMB\P' num2str(P) '\model'];
 %TR in seconds
 TR = 2;
 %Reference slice (image at t=0)
